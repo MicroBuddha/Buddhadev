@@ -13,11 +13,10 @@ body {
 
 /* Header Section */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url('background.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 50, 0.6), rgba(0, 0, 50, 0.6)), url('background.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
-    position: relative;
+    padding: 120px 20px;
 }
 
 .navbar {
@@ -102,13 +101,6 @@ body {
     margin-bottom: 20px;
 }
 
-.about-section p {
-    font-size: 18px;
-    color: #555;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +123,7 @@ body {
     margin-bottom: 10px;
 }
 
-.project-card, .experience-card, .education-card {
+.project-card, .experience-card, .education-card, .publications-section ul {
     background-color: #f0f8ff;
     color: #333;
     padding: 20px;
@@ -142,16 +134,19 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.project-card h3, .experience-card h3, .education-card h3 {
-    font-size: 24px;
-    color: #4682B4;
-    margin-bottom: 10px;
-}
-
-.contact-info p {
+.contact-info p, .publications-section ul li {
     font-size: 18px;
     color: #555;
     margin: 10px 0;
+}
+
+.contact-info a {
+    color: #4682B4;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
