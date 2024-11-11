@@ -8,15 +8,16 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    background-color: #f4f7f9;
+    background-color: #fdf8f4;
 }
 
 /* Header Section */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 50, 0.6), rgba(0, 0, 50, 0.6)), url('background.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 50, 0.6), rgba(0, 0, 50, 0.6)), url('background-cover.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 140px 20px;
+    background-size: cover;
 }
 
 .navbar {
@@ -24,6 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    background-color: #f1c0e8; /* Light purple */
 }
 
 .navbar .logo a {
@@ -43,14 +45,14 @@ body {
 }
 
 .nav-links a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #87CEFA;
+    color: #8e8efb;
 }
 
 .hero-content .profile-img {
@@ -73,8 +75,8 @@ body {
 
 .cta-btn {
     padding: 12px 25px;
-    background-color: #4682B4;
-    color: #fff;
+    background-color: #90dbf4;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -82,14 +84,14 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #5A9BD5;
+    background-color: #8e8efb;
 }
 
 /* Section Styling */
 .section {
     padding: 60px 20px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #fbf8cc;
     margin: 40px 10px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -101,6 +103,10 @@ body {
     margin-bottom: 20px;
 }
 
+.about-section {
+    background-color: #ffcfd2; /* Light coral pink */
+}
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -109,8 +115,8 @@ body {
 }
 
 .skill-card {
-    background-color: #4682B4;
-    color: #fff;
+    background-color: #a3c4f3;
+    color: #333;
     padding: 20px;
     border-radius: 10px;
     width: 250px;
@@ -124,7 +130,7 @@ body {
 }
 
 .project-card, .experience-card, .education-card, .publications-section ul {
-    background-color: #f0f8ff;
+    background-color: #98f5e1; /* Soft mint green */
     color: #333;
     padding: 25px;
     margin: 15px auto;
@@ -157,8 +163,8 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #4682B4;
-    color: #fff;
+    background-color: #f1c0e8;
+    color: #333;
     padding: 15px 0;
     text-align: center;
 }
