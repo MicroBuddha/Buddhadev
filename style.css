@@ -127,7 +127,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Education Card with Logo Styling */
+/* Education Card with Smaller Logo Styling */
 .education-card {
     background-color: #98f5e1; /* Soft mint green */
     color: #333;
@@ -142,9 +142,9 @@ body {
 }
 
 .education-logo {
-    width: 50px; /* Adjust size as needed */
+    width: 30px; /* Smaller size for logos */
     height: auto;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .education-card h3 a {
