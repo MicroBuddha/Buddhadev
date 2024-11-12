@@ -203,6 +203,7 @@ body {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+    /* Navbar and Hero Adjustments */
     .navbar {
         flex-direction: column;
         padding: 10px 20px;
@@ -219,7 +220,7 @@ body {
     }
 
     .hero-content h1 {
-        font-size: 32px; /* Smaller heading on mobile */
+        font-size: 32px; /* Smaller heading */
     }
 
     .hero-content p {
@@ -230,30 +231,47 @@ body {
         padding: 10px 20px;
     }
 
-    /* Section Padding */
+    /* Section and Card Adjustments */
     .section {
-        padding: 40px 15px;
+        padding: 30px 10px;
+        text-align: left; /* Align text to the left for readability */
     }
 
-    /* Make skill cards and other cards stack vertically */
+    /* Stack skill cards, education cards, and others vertically */
     .skills-container, .project-card, .education-card, .experience-card, .publications-section ul {
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
 
-    .skill-card {
+    .skill-card, .education-card, .project-card, .experience-card, .publications-section ul {
         width: 90%;
-        margin: 10px auto;
+        margin: 15px auto;
+        padding: 15px; /* Reduce padding for better fit */
     }
 
-    .education-card, .project-card, .experience-card, .publications-section ul {
-        width: 90%;
-        margin: 10px auto;
+    /* Reduce font size in education cards and others */
+    .education-card h3, .project-card h3, .experience-card h3, .publications-section h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
     }
 
-    /* Adjust logo size for mobile */
+    /* Adjust logo size for mobile and reposition */
     .education-logo {
-        width: 20px;
+        width: 25px; /* Smaller logo */
+        height: auto;
+        margin-right: 10px;
+    }
+
+    /* Center-align and increase space for list items in publications */
+    .publications-section ul li {
+        font-size: 16px;
+        margin: 12px 0;
+    }
+
+    /* Footer adjustments */
+    .footer {
+        font-size: 14px;
     }
 }
+
 
