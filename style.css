@@ -201,3 +201,59 @@ body {
     text-align: center;
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 32px; /* Smaller heading on mobile */
+    }
+
+    .hero-content p {
+        font-size: 16px; /* Smaller paragraph text */
+    }
+
+    .cta-btn {
+        padding: 10px 20px;
+    }
+
+    /* Section Padding */
+    .section {
+        padding: 40px 15px;
+    }
+
+    /* Make skill cards and other cards stack vertically */
+    .skills-container, .project-card, .education-card, .experience-card, .publications-section ul {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .skill-card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .education-card, .project-card, .experience-card, .publications-section ul {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    /* Adjust logo size for mobile */
+    .education-logo {
+        width: 20px;
+    }
+}
+
