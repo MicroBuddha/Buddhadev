@@ -8,30 +8,28 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    background-color: #fbf8cc; /* Soft yellow */
+    background-color: #f7f9fc; /* Very light blue */
 }
 
 /* Hero Section with Cover Background */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 50, 0.6), rgba(0, 0, 50, 0.6)), url('background.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url('background.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 140px 20px;
     background-size: cover;
 }
 
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #fde4cf; /* Soft peach */
+    background-color: #e0e6ef; /* Soft, subtle blue */
 }
 
 .navbar .logo a {
-    color: #fff;
+    color: #333;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -77,7 +75,7 @@ body {
 
 .cta-btn {
     padding: 12px 25px;
-    background-color: #98f5e1; /* Mint green */
+    background-color: #cde7f5; /* Light mint blue */
     color: #333;
     text-decoration: none;
     font-weight: bold;
@@ -86,22 +84,22 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #a3c4f3; /* Light blue */
+    background-color: #b0d3f5; /* Slightly darker mint blue */
 }
 
 /* Section Styling */
 .section {
     padding: 60px 20px;
     text-align: center;
-    background-color: #fdf8f4;
+    background-color: #f9fafc; /* Subtle light background */
     margin: 40px 10px;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .section h2 {
     font-size: 36px;
-    color: #4682B4;
+    color: #3b5998; /* Darker blue */
     margin-bottom: 20px;
 }
 
@@ -113,7 +111,7 @@ body {
 }
 
 .skill-card {
-    background-color: #a3c4f3; /* Light blue */
+    background-color: #e8f4fc; /* Very light blue */
     color: #333;
     padding: 20px;
     border-radius: 10px;
@@ -129,7 +127,7 @@ body {
 
 /* Education Card with Smaller Logo Styling */
 .education-card {
-    background-color: #98f5e1; /* Soft mint green */
+    background-color: #e0f7fa; /* Light cyan */
     color: #333;
     padding: 25px;
     margin: 15px auto;
@@ -142,58 +140,64 @@ body {
 }
 
 .education-logo {
-    width: 40px; /* Smaller size for logos */
+    width: 30px; /* Smaller size for logos */
     height: auto;
     margin-right: 10px;
 }
 
 .education-card h3 a {
-    color: #4682B4;
+    color: #3b5998; /* Darker blue for links */
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .education-card h3 a:hover {
-    color: #333;
+    color: #555;
 }
 
-
-.project-card, .experience-card, .publications-section ul {
-    background-color: #98f5e1; /* Soft mint green */
+.project-card, .experience-card {
+    background-color: #f0f5f9; /* Very light blue */
     color: #333;
     padding: 25px;
     margin: 15px auto;
     width: 80%;
     border-radius: 10px;
     text-align: left;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.project-card h3, .experience-card h3 {
-    font-size: 24px;
-    color: #4682B4;
-    margin-bottom: 10px;
+/* Publications Section Styling */
+.publications-section {
+    background-color: #f3f8fc; /* Slightly darker subtle blue */
+    padding: 25px;
+    border-radius: 10px;
+    margin: 15px auto;
+    width: 80%;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.contact-info p, .publications-section ul li {
+.publications-section ul li {
     font-size: 18px;
-    color: #555;
+    color: #3b5998;
     margin: 10px 0;
 }
 
-.contact-info a {
-    color: #4682B4;
+.publications-section ul li a {
+    color: #3b5998;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
-.contact-info a:hover {
-    text-decoration: underline;
+.publications-section ul li a:hover {
+    color: #555;
 }
 
 /* Footer */
 .footer {
-    background-color: #f1c0e8; /* Lavender */
+    background-color: #e0e6ef; /* Soft, subtle blue */
     color: #333;
     padding: 15px 0;
     text-align: center;
 }
+
