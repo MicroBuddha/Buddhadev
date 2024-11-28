@@ -1,81 +1,76 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f7f9fc; /* Very light blue */
-}
-
-/* Hero Section with Cover Background */
-.hero-section {
-    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url('background.jpg') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 140px 20px;
-    background-size: cover;
-}
-
+/* Navbar Styling */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background-color: #e0e6ef; /* Soft, subtle blue */
+    padding: 15px 40px; /* Reduced padding for smaller header */
+    background-color: #e0e6ef; /* Subtle blue */
 }
 
 .navbar .logo a {
     color: #333;
-    font-size: 24px;
+    font-size: 20px; /* Smaller font size for logo */
     font-weight: bold;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo a:hover {
+    color: #0073b1; /* LinkedIn blue on hover */
 }
 
 .nav-links {
     list-style: none;
     display: flex;
+    margin: 0;
 }
 
 .nav-links li {
-    margin-left: 20px;
+    margin-left: 15px; /* Adjusted margin for compact links */
 }
 
 .nav-links a {
     color: #333;
     text-decoration: none;
-    font-weight: 500;
+    font-size: 14px; /* Smaller font size for links */
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #8e8efb;
+    color: #8e8efb; /* Highlight color on hover */
+}
+
+/* Hero Section Content */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px; /* Reduced padding to make the section smaller */
+    background-size: cover;
 }
 
 .hero-content .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 120px; /* Reduced size for profile image */
+    height: 120px;
     border-radius: 50%;
-    margin-bottom: 20px;
-    border: 5px solid #fff;
+    margin-bottom: 15px; /* Adjusted spacing */
+    border: 4px solid #fff;
 }
 
 .hero-content h1 {
-    font-size: 48px;
+    font-size: 36px; /* Smaller font size */
     margin-bottom: 10px;
 }
 
 .hero-content p {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 16px; /* Adjusted font size */
+    margin-bottom: 15px;
 }
 
 .cta-btn {
-    padding: 12px 25px;
-    background-color: #cde7f5; /* Light mint blue */
+    padding: 10px 20px;
+    background-color: #cde7f5;
     color: #333;
     text-decoration: none;
     font-weight: bold;
@@ -84,7 +79,7 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #b0d3f5; /* Slightly darker mint blue */
+    background-color: #b0d3f5;
 }
 
 /* Section Styling */
